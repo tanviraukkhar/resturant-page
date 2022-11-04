@@ -1,0 +1,441 @@
+/* body {
+    background-color: powderblue;
+  } */
+
+  html{
+  scroll-behavior: smooth;
+
+  }
+  *{
+    margin: 0;
+    padding: 0;
+
+}
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+
+  .header-container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 90px;
+    /* margin-top: 20px; */
+  }
+  .cart-image{
+
+    padding: 2px;
+    width: 50px;
+    height: 40px;
+    margin-top: 30px;
+    
+    
+  }
+
+  .nav-contain{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(235, 159, 88);
+    justify-content: space-between;
+  }
+
+  .user-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    
+  }
+
+  .btn-nav{
+    margin-left: 50px;
+    margin-top: 10px;
+    
+  }
+
+  .btn-all{
+    background-color:rgb(235, 159, 88);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    
+  }
+ 
+  .user-nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 26px;
+  }
+
+  .today-special{
+
+    width: 100%;
+    height: 500px;
+    
+  }
+
+  .order-food{
+    width: 100%;
+    background-color: rgb(112, 3, 3);
+    
+    
+  }
+
+  .order{
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(248, 217, 203);
+    
+  }
+
+  .Reviews{
+    background-color: rgb(251, 225, 213);
+    width: 100%;
+    text-align: center;
+    
+  }
+  .ordertxt{
+    font-size: 36px;
+    
+  }
+
+  .food-cart{
+    width: 500px;
+    height: 800px;
+    background-color: aliceblue;
+  }
+
+  .food-add{
+    
+    
+    width: 100%;
+    height: 600px;
+    background-color: rgb(124, 9, 9);
+    
+    
+  }
+
+  .item1{
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+
+   }
+
+   .item2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-top: 5px solid rgb(107, 41, 41);
+    border-bottom: 5px solid rgb(107, 41, 41);
+   }
+
+  .item-font{
+    font-size: 36px;
+    color: aliceblue;
+    margin-top: 48px;
+    font-style: italic;
+  }
+
+  .item-firni{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-top: 48px;
+    margin-right: 152px;
+    font-style: italic;
+
+  }
+
+  .item-chik-cu{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-top: 48px;
+    margin-right: 0px;
+    font-style: italic;
+
+  }
+
+  .food-pic{
+    padding: 24px;
+    width: 255px;
+     
+  }
+ 
+  .btn{
+    
+    display: inline-block;
+    font-size: 1.7rem;
+    color:black;
+    background-color: aliceblue;
+    width: 40px;
+    height: 42px;
+    
+    cursor: pointer;
+    
+  }
+.inptfld{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-left: 20px;  
+  margin-right: 20px;  
+}
+.add-item{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.review-section{
+  
+    background-color: rgb(251, 225, 213);
+    width: 100%;
+    text-align: center;
+  
+}
+.review-food{
+     font-size: 42px;
+     
+  
+}
+
+.select-food-box{
+
+display: flexs;
+background-color: rgb(251, 225, 213);
+height: 450px;
+
+}
+.container{
+
+    display: flex;
+    justify-content: space-between;
+}
+.box-one{
+
+ background-color: rgb(255, 255, 255);
+ height: 350px;
+ width: 300px;
+ margin-top: 50px;
+
+ margin-left: 20px;
+ border-radius: 15px;   
+box-shadow: 5px 5px 18px rgb(0, 0, 0); 
+ 
+}
+.box-two{
+background-color: rgb(255, 255, 255);
+height: 350px;
+width: 300px;
+margin-top: 50px;
+
+border-radius: 15px;   
+box-shadow: 5px 5px 18px rgb(0, 0, 0); 
+
+}
+.box-three{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 300px;
+    margin-top: 50px;
+  
+    margin-right: 20px;
+    border-radius: 15px;   
+    box-shadow: 5px 5px 18px rgb(0, 0, 0); 
+    
+}
+.box-four{
+  background-color: antiquewhite;
+  margin-top: 600px;
+  height: 350px;
+  width: 300px;
+}
+
+.picture{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+
+.carrybox-pic{
+width: 280px;
+height: 180px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.chicks-cary-name{
+
+text-align: center;
+margin-top: 14px;
+}
+.tx-siz{
+  color: black;
+  font-size: 30px;
+}
+
+.tara{
+  text-align: center;
+  margin-top: 38px;
+  font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+.last-nav{
+
+  
+  height: 200px;
+  background-color: rgb(112, 3, 3);
+}
+.cnt-size{
+
+  margin-top: 10px;
+}
+
+
+.plus{
+    
+  display: inline-block;
+  font-size: 1.7rem;
+  color:black;
+  background-color: aliceblue;
+  width: 40px;
+  height: 42px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.minus{
+  display: inline-block;
+  font-size: 1.7rem;
+  color:black;
+  background-color: aliceblue;
+  width: 40px;
+  height: 42px;
+  text-align: center;
+  cursor: pointer;
+}
+.num{
+width: 40px;
+height: 40px;
+text-align: center;
+margin-left: 20px;  
+margin-right: 20px;
+background-color: white;
+
+}
+.num-3{
+padding: 4px;
+text-align: center;
+color: white;
+border-radius: 25px;
+background-color: rgb(214, 19, 19);
+
+}
+
+.plus-1{
+  
+display: inline-block;
+font-size: 1.7rem;
+color:black;
+background-color: aliceblue;
+width: 40px;
+height: 42px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.minus-1{
+display: inline-block;
+font-size: 1.7rem;
+color:black;
+background-color: aliceblue;
+width: 40px;
+height: 42px;
+text-align: center;
+cursor: pointer;
+}
+.num-1{
+width: 40px;
+height: 40px;
+text-align: center;
+margin-left: 20px;  
+margin-right: 20px;
+background-color: white;
+
+}
+
+.plus-2{
+  
+  display: inline-block;
+  font-size: 1.7rem;
+  color:black;
+  background-color: aliceblue;
+  width: 40px;
+  height: 42px;
+  text-align: center;
+  cursor: pointer;
+  
+  }
+  
+  .minus-2{
+  display: inline-block;
+  font-size: 1.7rem;
+  color:black;
+  background-color: aliceblue;
+  width: 40px;
+  height: 42px;
+  text-align: center;
+  cursor: pointer;
+  }
+  .num-2{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-left: 20px;  
+  margin-right: 20px;
+  background-color: white;
+  
+  }
+
+.num-3{
+  padding: 4px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(214, 19, 19);
+    
+  }
+
+
+  .cntac{
+
+font-size: 40px;
+margin-left: 15px;
+
+
+color: rgba(255, 255, 254, 0.979);
+  }
